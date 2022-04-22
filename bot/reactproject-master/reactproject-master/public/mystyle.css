@@ -1,0 +1,77 @@
+*{
+    margin: 0 !important;
+    box-sizing: border-box !important;
+}
+
+.custom-image:hover{
+    transform: scale(1.5);
+}
+
+.card-img-container{
+    border: solid rgba(128, 128, 128,50%) 1px;
+    overflow: hidden;
+}
+
+.custom-image{
+    transition:2s;
+}
+
+.home-card{
+    background-color: rgba(255,255,255, 10%);
+    color: white;
+    text-align: left;
+    font-size: 48px;
+    padding: 40px !important;
+    width: 25%;
+    /* margin-top: 25px; */
+}
+
+.home-banner{
+    height: 75vh;
+    background-size: cover;
+    background-image: url('https://marvel-b1-cdn.bc0a.com/f00000000091204/www.nice.com/-/media/niceincontact/page-content/blog/2021/06/best-examples-of-chatbots-and-what-makes-them-great.ashx?rev=87d06fc56ac54f57817f52345862bacb&h=628&w=1200&la=en&hash=B6A8C3F59E418C79E7652C23860DE672');
+}
+
+.home-div2{
+    background-color: rgba(210,234,255, 50%);
+}
+
+.custom-background1{
+    background-color: rgba(210,234,255, 90%);
+    border-radius : 30px;
+    padding: 1rem;
+    text-align: justify !important;
+}
+
+.custom-background2{
+    background-color: rgba(210,234,255, 90%);
+    padding: 1rem;
+    text-align: justify !important;
+}
+
+.custom-heading{
+    background-color: rgb(210,234,255);
+    border-radius : 30px;
+    padding: 1rem;
+    text-align: center !important;
+    font-size: 42px;
+}
+
+.custom-text{
+    background-color: rgb(210,234,255);
+    border-radius : 30px;
+    padding: 1rem;
+    padding-left: 3em;
+    padding-right: 3em;
+    text-align: justify !important;
+    font-size: 36px;
+}
+
+.custom-li{
+    list-style: '→ ';
+}
+
+.custom-nav-color{
+    background-image: linear-gradient( 63.9deg, rgba(16,68,31,1) -12.6%, rgba(30,213,210,1) 80.2% );
+
+}
